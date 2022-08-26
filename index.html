@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay Chip</title>
+    <link rel="icon" href="img/icon-bls.png">
+    <!-- Bootstrap 5 CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">     
+    <!-- HTML & CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Flickity CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JQuery 3.6.0 JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light fadeInBottom">
+        <div class="container">
+            <a href="#" class="nav-brand"><img src="img/icon.png" width="120" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-layout-split"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a href="#" class="nav-link home_title active"  aria-current="page">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link contact_title">CONTACT</a>
+                </li>
+                <li class="darklight-mode">
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="darklight">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </li>
+                <li class="nav-item language">
+                    <a href="#" id="language" class="active" language = 'english'>EN</a>
+                    <a href="#" id="language" language = 'vietnamese'>VN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="main-content">
+        
+        <div class="infomation fadeInLeft">
+            <div class="personal">
+                <h1 class="nickname">Kay Chip</h1>
+                <h6 class="job job_title">WEB DESIGNER</h6>
+                <div class="hr-line">
+                <div class="line">
+                    <hr class="one">
+                </div>
+            </div>
+        </div>
+        <div class="bio">
+            <p class="main-bio">
+                <b class="bio_br_title">Nguyen Dang Khoa </b><span class="bio_1">known as</span> <b>Kay Chip</b><span class="bio_2"> is a contestant on </span><em class="bio_em_title">Youth Initiates Digital.</em><span class="bio_3"> From his skills and experiences, he created a website to share on technology topics.</span>
+            </p>
+        </div>
+        <div class="contact">
+            <div class="contact-border">
+                <button class="contact-me contact_me_title">Contact me</button>
+            </div>
+        </div>
+    </div>
+    <div class="slider fadeInTop">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/2.jpg" alt="">
+            </div>
+        <div class="slide">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/4.jpg" alt="">
+        </div>
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    </div>
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+    <div class="border slider">
+        <hr class="line-border-1 fadeInBottom">
+        <hr class="line-border-2 fadeInRight">
+        <hr class="line-border-3 fadeInLeft">
+        <hr class="line-border-4 fadeInTop">
+    </div>
+</div>
+<div class="analytics fadeInRight">
+    <div class="skill">
+        <div class="skill-content">
+            <h6 class="skill-name design_title">
+                DESIGN 
+            </h6>
+            <p class="percent">(65%)</p>
+        </div>
+        <div class="skill-analytics">
+            <div class="hr-line-analytics">
+                <div class="line-analytics">
+                    <hr class="default">
+                    <hr class="percent-line first">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-content">
+            <h6 class="skill-name photography_title">
+                    PHOTOGRAPHY 
+                </h6>
+                <p class="percent">(50%)</p>
+        </div>
+            <div class="skill-analytics">
+                <div class="hr-line-analytics">
+                    <div class="line-analytics">
+                        <hr class="default">
+                        <hr class="percent-line second">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-content">
+                <h6 class="skill-name marketing_title">
+                    MARKETING 
+                </h6>
+                <p class="percent">(20%)</p>
+            </div>
+            <div class="skill-analytics">
+                <div class="hr-line-analytics">
+                    <div class="line-analytics">
+                        <hr class="default">
+                        <hr class="percent-line third">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-content">
+                <h6 class="skill-name learning_title">
+                    LEARNING 
+                </h6>
+                <p class="percent">(55%)</p>
+            </div>
+            <div class="skill-analytics">
+                <div class="hr-line-analytics">
+                    <div class="line-analytics">
+                        <hr class="default">
+                        <hr class="percent-line fourth">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/kaychip.coder/" class="social-link" name = "facebook" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.messenger.com/t/100025633714524" class="social-link" name = "messenger" title="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
+            <a href="https://www.instagram.com/if.kaychip/" class="social-link" name = "instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@kaychip" class="social-link" name = "tiktok" title="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+            
+        </div>
+    </div>
+    </div>
+    <div id="contact">
+        <div class="footer-content fadeInTop">
+            <section class="footer">
+                <div class="items">
+                    <i class="fa-solid fa-mobile icon"></i>
+                    <div class="pnumber">
+                        <h6 class="phonenumber_title">PHONE NUMBER</h6>
+                        <p class="phonenumber">+84395260944</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <i class="fa-solid fa-location-dot icon"></i>
+                    <div class="useraddress">
+                        <h6 class="useraddress_title">USER ADDRESS</h6>
+                        <p class="address address_title_1">36 38 Ly Tu Trong, </p><p class="address address_title_2">An Loc, Binh Long Town, </p><p class="address address_title_3">Binh Phuoc Province</p>
+                    </div>
+                </div>
+                <div class="items">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    <div class="emailaddress">
+                        <h6 class="emailaddress_title">EMAIL ADDRESS</h6>
+                        <p class="email">kaychipcoder@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    let counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+        }, 3000)
+</script>
+<script>
+    const checkbox = document.getElementById('checkbox');
+    checkbox.addEventListener('change', function(){
+        document.body.classList.toggle('dark');
+    })
+</script>
+<!-- Bootstrap 5 Buddle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+var nav = document.querySelector('nav'); 
+window.addEventListener('scroll', function(){
+    if(window.pageYOffset > 100){
+        nav.classList.add('bg-dark', 'shadow');
+    }else{
+        nav.classList.remove('bg-dark', 'shadow'); 
+    }
+})
+</script>
+<script>
+    const langEl = document.querySelector('.language');
+    const link = document.querySelectorAll('a#language');
+    const homeTitleEl = document.querySelector('.home_title');
+    const contactTitleEl = document.querySelector('.contact_title');
+    const jobTitleEl = document.querySelector('.job_title');
+    const bioBrTilteEl = document.querySelector('.bio_br_title');
+    const bio1TitleEl = document.querySelector('.bio_1');
+    const bio2TitleEl = document.querySelector('.bio_2');
+    const bio3TitleEl = document.querySelector('.bio_3');
+    const bioEmTitleEl = document.querySelector('.bio_em_title');
+    const contactMeTitleEl = document.querySelector('.contact_me_title');
+    const designTitleEl = document.querySelector('.design_title');
+    const photographyTitleEl = document.querySelector('.photography_title');
+    const marketingTitleEl = document.querySelector('.marketing_title');
+    const learningTitleEl = document.querySelector('.learning_title');
+    const phoneNumberTitleEl = document.querySelector('.phonenumber_title');
+    const userAddressTitleEl = document.querySelector('.useraddress_title');
+    const addressTitleEl1 = document.querySelector('.address_title_1');
+    const addressTitleEl2 = document.querySelector('.address_title_2');
+    const addressTitleEl3 = document.querySelector('.address_title_3');
+    const emailAddressTitleEl = document.querySelector('.emailaddress_title');
+    const formTitleEl = document.querySelector('.form_title');
+    const fullNameTitleEl = document.querySelector('.fullname-title');
+    const formPhoneNumberTitleEl = document.querySelector('.form-phonenumber-title');
+    const zeroValueTitleEl = document.querySelector('.zerovalue-title');
+    const othersValueTitleEl = document.querySelector('.othersvalue-title');
+    const typeTitleEl = document.querySelector('.type-title');
+    const selectTypeTitleEl = document.querySelector('.selecttype-title');
+    const amountTitleEl = document.querySelector('.amount-title');
+    const voucherTitleEl = document.querySelector('.voucher-title');
+    const messageTitleEl = document.querySelector('.message-title');
+    const sendTitleEl = document.querySelector('.send-title');
+    const otherContactMethodsTitleEl = document.querySelector('.other-contact-methods-title');
+
+    link.forEach(el => {
+        el.addEventListener('click', () =>{
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+
+            const attr = el.getAttribute('language');
+
+            homeTitleEl.textContent = data[attr].home_title;
+            contactTitleEl.textContent = data[attr].contact_title;
+            jobTitleEl.textContent = data[attr].job_title;
+            bioBrTilteEl.textContent = data[attr].bio_br_title;
+            bio1TitleEl.textContent = data[attr].bio_1;
+            bio2TitleEl.textContent = data[attr].bio_2;
+            bioEmTitleEl.textContent = data[attr].bio_em_title;
+            bio3TitleEl.textContent = data[attr].bio_3;
+            contactMeTitleEl.textContent = data[attr].contact_me_title;
+            designTitleEl.textContent = data[attr].design_title;
+            photographyTitleEl.textContent = data[attr].photography_title;
+            marketingTitleEl.textContent = data[attr].marketing_title;
+            learningTitleEl.textContent = data[attr].learning_title;
+            phoneNumberTitleEl.textContent = data[attr].phonenumber_title;
+            userAddressTitleEl.textContent = data[attr].useraddress_title;
+            addressTitleEl1.textContent = data[attr].address_title_1;
+            addressTitleEl2.textContent = data[attr].address_title_2;
+            addressTitleEl3.textContent = data[attr].address_title_3;
+            emailAddressTitleEl.textContent = data[attr].email_title;
+        })
+    })
+
+    let data = {
+        "english":
+        {
+            "home_title": "HOME",
+            "contact_title": "CONTACT",
+            "job_title": "WEB DESIGNER",
+            "bio_br_title": "Nguyen Dang Khoa ",
+            "bio_1": " known as ",
+            "bio_2": " is a contestant on ",
+            "bio_em_title": "Youth Initiates Digital",
+            "bio_3": ". From his skills and experiences, he created a website to share on technology topics.",
+            "contact_me_title": "Contact me",
+            "design_title": "DESIGN",
+            "photography_title": "PHOTOGRAPHY",
+            "marketing_title": "MARKETING",
+            "learning_title": "LEARNING",
+            "phonenumber_title": "PHONE NUMBER",
+            "useraddress_title": "USER ADDRESS",
+            "address_title_1": "36 38 Ly Tu Trong, ",
+            "address_title_2": "An Loc, Binh Long, ",
+            "address_title_3": "Binh Phuoc",
+            "email_title": "EMAIL ADDRESS",
+            "form_title": "Contact Form",
+            "fullname-title": "Full name: ",
+            "form-phonenumber-title": "Phone number: ",
+            "services-title": "Service: ",
+            "zerovalue-title": "- Select your services -",
+            "othersvalue-title": "Others",
+            "type-title": "Service types: ",
+            "selecttype-title": "- Select your service types -",
+            "amount-title": "Amount: ",
+            "voucher-title": "Voucher: ",
+            "message-title": "Message: ",
+            "send-title": "SUBMIT",
+            "others-contact-methods-title": "Other contact methods: "
+        },
+        "vietnamese":
+        {
+            "home_title": "TRANG CHỦ",
+            "contact_title": "LIÊN HỆ",
+            "job_title": "NHÀ THIẾT KẾ WEB",
+            "bio_br_title": "Nguyễn Đăng Khoa ",
+            "bio_1": " hay được gọi là ",
+            "bio_2": ", một thí sinh tham dự cuộc thi ",
+            "bio_em_title": "Thanh niên khởi tạo kỹ thuật số.",
+            "bio_3": " Với kỹ năng và kinh nghiệm, em đã xây dựng một trang web về cá nhân chia sẻ về chủ đề công nghệ.",
+            "contact_me_title": "Liên hệ tôi",
+            "design_title": "THIẾT KẾ",
+            "photography_title": "NHIẾP ẢNH",
+            "marketing_title": "KINH DOANH",
+            "learning_title": "HỌC TẬP",
+            "phonenumber_title": "SỐ ĐIỆN THOẠI",
+            "useraddress_title": "ĐỊA CHỈ CÁ NHÂN",
+            "address_title_1": "36 38 Lý Tự Trọng, ",
+            "address_title_2": "An Lộc, Bình Long, ",
+            "address_title_3": "Bình Phước",
+            "email_title": "ĐỊA CHỈ EMAIL",
+        }
+    }
+</script>
+<!-- Bootstrap 5 Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/f64ae307e0.js" crossorigin="anonymous"></script>   
+</body>
+</html>
+
